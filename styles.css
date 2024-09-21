@@ -1,5 +1,15 @@
+.titulo-pagina{
+    text-align: center;
+    font-style: italic;
+    font-size: 3em;
+    font-weight: 900;
+    font-family:Arial, Helvetica, sans-serif;
+    color: darkblue;
+    margin: 10px;
+}
+
 .nome-da-propriedade {
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: 500px;
     font-family: Arial, Helvetica, sans-serif;
     color: darkgoldenrod;
@@ -12,16 +22,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
     padding: 30px;
-}
-
-.titulo-pagina {
-    text-align: center;
-    font-style: italic;
-    font-size: 3em;
-    font-weight: 900;
-    font-family: Arial, Helvetica, sans-serif;
-    color: darkolivegreen;
-    margin: 10px;
+    padding-bottom: 5px;
 }
 
 hr {
@@ -61,7 +62,7 @@ margin: 20px;
 .container {
     display: flex;
     flex-direction: row;
-/*indiferente*/
+/*indiferente, só estética*/
     background-color: antiquewhite;
     padding: 16px;
     height: 500px;
@@ -88,7 +89,7 @@ margin: 20px;
 .container-row-reverse {
     display: flex;
     flex-direction: row-reverse;
-/*indiferente, sói estética*/
+/*indiferente, só estética*/
     background-color: antiquewhite;
     padding: 16px;
     height: 500px;
@@ -97,8 +98,231 @@ margin: 20px;
 .container-column-reverse {
     display: flex;
     flex-direction: column-reverse;
-/*indiferente, sói estética*/
+/*indiferente, só estética*/
     background-color: antiquewhite;
     padding: 16px;
     height: 500px;
 }
+
+.container-justify-content-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*indiferente, só estética*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-justify-content-flex-start {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /*indiferente, só estética*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-justify-content-flex-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /*indiferente, só estética*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-justify-content-space-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*indiferente, só estética*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-justify-content-space-around {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /*indiferente, só estética*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-justify-content-space-evenly {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /*indiferente, só estética*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-aling-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*indiferente, só estética*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-aling-flex-start {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /*indiferente, só estética*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-aling-flex-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    /*indiferente, só estética*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-aling-stretch {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    /*indiferente, só estética*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.bloco-1-no-height {
+    background-color: blueviolet;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco-2-no-height {
+    background-color: rgb(159, 63, 63);
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco-3-no-height {
+    background-color: rgb(51, 175, 228);
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.container-aling-baseline {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    /*indiferente, só estética*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.bloco-1-fontes-diferentes {
+    background-color: blueviolet;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco-2-fontes-diferentes {
+    background-color: rgb(159, 63, 63);
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco-3-fontes-diferentes {
+    background-color: rgb(51, 175, 228);
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.container-flexwrap-nowrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    /*indiferente, só estética*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-flexwrap-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /*indiferente, só estética*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-flexwrap-wrap-reverse {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    /*indiferente, só estética*/
+    background-color: antiquewhite;
+    padding: 16px;
+    padding-top: 16px;
+    height: 500px;
+}
+
+.container-flexflow-row-nowrap {
+    display: flex;
+    /*flex-direction: row;*/
+    justify-content: center;
+    align-items: center;
+    /*flex-wrap: nowrap;*/
+    flex-flow: row nowrap;
+    /*indiferente, só estética*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
