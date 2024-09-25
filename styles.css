@@ -1,4 +1,4 @@
-.titulo-pagina{
+.titulo-pagina {
     text-align: center;
     font-style: italic;
     font-size: 3em;
@@ -326,3 +326,116 @@ margin: 20px;
     height: 500px;
 }
 
+.container-align-content-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    /*indiferente, só estética*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-align-content-flex-start {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    /*indiferente, só estética*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-align-content-flex-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    /*indiferente, só estética*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-align-content-space-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+    /*indiferente, só estética*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-align-content-space-around {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    /*indiferente, só estética*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-align-content-space-evenly {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    /*indiferente, só estética*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*indiferente, só estética*/
+    background-color: antiquewhite;
+    padding: 15px;    
+}
+
+nav ul {
+    list-style-type: symbols;
+    display: flex; /* Adiciona Flexbox */
+    gap: 75px; /* Espaço entre os itens */
+    color: rgb(190, 42, 138);
+}
+
+nav ul li {
+    margin: 0; /* Remove margem dos itens */
+}
+
+a {
+    text-align: center;
+    font-style:normal;
+    font-size: 1em;
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(190, 42, 138);
+    margin: 10px; 
+}
+
+.inicio {
+    display: flex;
+    color: rgb(0, 0, 0);
+}

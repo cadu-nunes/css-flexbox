@@ -1,30 +1,60 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <title>Atividade FlexBox</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-    <h1 class="titulo-pagina">Propriedades FlexBox</h1>
+    <h1 class="titulo-pagina" id="Início">Propriedades FlexBox - Parte 1: container</h1>
     <hr>
 
-    <h1 class="nome-da-propriedade">1- display: ativa o FlexBox</h1>
+    <nav>
+        <ul>
+            <li>
+                <a href="#display">display</a>
+            </li>
+            <li>
+                <a href="#flex-direction">flex-direction</a>
+            </li>
+            <li>
+                <a href="#justify-content">justify-content</a>
+            </li>
+            <li>
+                <a href="#align-items">align-items</a>
+            </li>
+            <li>
+                <a href="#flex-wrap">flex-wrap</a>
+            </li>
+            <li>
+                <a href="#flex-flow">flex-flow</a>
+            </li>
+            <li>
+                <a href="#align-content">align-content</a>
+            </li>
+        </ul>
+    </nav>
+    <hr>
+
+    <h1 class="nome-da-propriedade" id="display">1. display: ativa o FlexBox</h1>
+
     <h2 class="valor-da-propriedade">display: flex</h2>
     <hr>
 
-    <h1 class="nome-da-propriedade">2- flex-direction: define a direção do eixo principal</h1>
-    <hr>
+    <h1 class="nome-da-propriedade" id="flex-direction">2. flex-direction: define a direção do eixo principal</h1>
 
     <h2 class="valor-da-propriedade">flex-direction: row</h2>
+    
     <main class="container-row">
         <div class="bloco-1"> 1 </div>
         <div class="bloco-2"> 2 </div>
         <div class="bloco-3"> 3 </div>
     </main>
+
+    <button><a href="#Início" class="inicio">Início</a></button>
 
     <h2 class="valor-da-propriedade">flex-direction: column</h2>
     <main class="container-column">
@@ -33,12 +63,16 @@
         <div class="bloco-3"> 3 </div>
     </main>
 
+    <button><a href="#Início" class="inicio">Início</a></button>
+
     <h2 class="valor-da-propriedade">flex-direction: row-reverse</h2>
     <main class="container-row-reverse">
         <div class="bloco-1"> 1 </div>
         <div class="bloco-2"> 2 </div>
         <div class="bloco-3"> 3 </div>
     </main>
+
+    <button><a href="#Início" class="inicio">Início</a></button>
 
     <h2 class="valor-da-propriedade">flex-direction: column-reverse</h2>
     <main class="container-column-reverse">
@@ -47,7 +81,10 @@
         <div class="bloco-3"> 3 </div>
     </main>
 
-    <h2 class="nome-da-propriedade">3- justify-content: serve para alinhar os objetos no eixo principal</h2>
+    <button><a href="#Início" class="inicio">Início</a></button>
+    <hr>
+
+    <h2 class="nome-da-propriedade" id="justify-content">3. justify-content: serve para alinhar os objetos no eixo principal</h2>
     
     <h2 class="valor-da-propriedade"> justify-content: center</h2>
     <main class="container-justify-content-center">
@@ -56,12 +93,16 @@
         <div class="bloco-3"> 3 </div>
     </main>
 
+    <button><a href="#Início" class="inicio">Início</a></button>
+
     <h2 class="valor-da-propriedade"> justify-content: flex-start</h2>
     <main class="container-justify-content-flex-start">
         <div class="bloco-1"> 1 </div>
         <div class="bloco-2"> 2 </div>
         <div class="bloco-3"> 3 </div>
     </main>
+
+    <button><a href="#Início" class="inicio">Início</a></button>
 
     <h2 class="valor-da-propriedade"> justify-content: flex-end</h2>
     <main class="container-justify-content-flex-end">
@@ -70,12 +111,16 @@
         <div class="bloco-3"> 3 </div>
     </main>
 
+    <button><a href="#Início" class="inicio">Início</a></button>
+
     <h2 class="valor-da-propriedade"> justify-content: space-between</h2>
     <main class="container-justify-content-space-between">
         <div class="bloco-1"> 1 </div>
         <div class="bloco-2"> 2 </div>
         <div class="bloco-3"> 3 </div>
     </main>
+
+    <button><a href="#Início" class="inicio">Início</a></button>
 
     <h2 class="valor-da-propriedade"> justify-content: space-around</h2>
     <main class="container-justify-content-space-around">
@@ -84,6 +129,8 @@
         <div class="bloco-3"> 3 </div>
     </main>
 
+    <button><a href="#Início" class="inicio">Início</a></button>
+
     <h2 class="valor-da-propriedade"> justify-content: space-evenly</h2>
     <main class="container-justify-content-space-evenly">
         <div class="bloco-1"> 1 </div>
@@ -91,7 +138,10 @@
         <div class="bloco-3"> 3 </div>
     </main>
 
-    <h1 class="nome-da-propriedade">4- align-items: alinhar os elementos no eixo perpendicular/secundário</h1>
+    <button><a href="#Início" class="inicio">Início</a></button>
+    <hr>
+
+    <h1 class="nome-da-propriedade" id="align-items">4. align-items: alinhar os elementos no eixo perpendicular/secundário</h1>
 
     <h2 class="valor-da-propriedade"> align-items: center</h2>
     <main class="container-aling-center">
@@ -100,6 +150,8 @@
         <div class="bloco-3"> 3 </div>
     </main>
 
+    <button><a href="#Início" class="inicio">Início</a></button>
+
     <h2 class="valor-da-propriedade"> align-items: flex-start</h2>
     <main class="container-aling-flex-start">
         <div class="bloco-1"> 1 </div>
@@ -107,12 +159,16 @@
         <div class="bloco-3"> 3 </div>
     </main>
 
+    <button><a href="#Início" class="inicio">Início</a></button>
+
     <h2 class="valor-da-propriedade"> align-items: flex-end</h2>
     <main class="container-aling-flex-end">
         <div class="bloco-1"> 1 </div>
         <div class="bloco-2"> 2 </div>
         <div class="bloco-3"> 3 </div>
     </main>
+
+    <button><a href="#Início" class="inicio">Início</a></button>
     
     <h2 class="valor-da-propriedade"> align-items: stretch</h2>
     <main class="container-aling-stretch">
@@ -121,6 +177,8 @@
         <div class="bloco-3-no-height"> 3 </div>
     </main>
 
+    <button><a href="#Início" class="inicio">Início</a></button>
+
     <h2 class="valor-da-propriedade"> align-items: baseline</h2>
     <main class="container-aling-baseline">
         <div class="bloco-1-fontes-diferentes"> 1 </div>
@@ -128,7 +186,10 @@
         <div class="bloco-3-fontes-diferentes"> 3 </div>
     </main>
 
-    <h1 class="nome-da-propriedade">5- flex-wrap - serve para decidir se os elementos irão para a linha de baixo quando chegar ao final do container ou eles ficarão espremidos</h1>
+    <button><a href="#Início" class="inicio">Início</a></button>
+    <hr>
+
+    <h1 class="nome-da-propriedade" id="flex-wrap">5. flex-wrap - serve para decidir se os elementos irão para a linha de baixo quando chegar ao final do container ou eles ficarão espremidos</h1>
 
     <h2 class="valor-da-propriedade"> flex-wrap: nowrap</h2>
     <main class="container-flexwrap-nowrap">
@@ -146,6 +207,8 @@
         <div class="bloco-3"> 12 </div>
     </main>
 
+    <button><a href="#Início" class="inicio">Início</a></button>
+
     <h2 class="valor-da-propriedade"> flex-wrap: wrap</h2>
     <main class="container-flexwrap-wrap">
         <div class="bloco-1"> 1 </div>
@@ -161,6 +224,8 @@
         <div class="bloco-2"> 11 </div>
         <div class="bloco-3"> 12 </div>
     </main>
+
+    <button><a href="#Início" class="inicio">Início</a></button>
 
     <h2 class="valor-da-propriedade"> flex-wrap: wrap-reverse</h2>
     <main class="container-flexwrap-wrap-reverse">
@@ -178,7 +243,10 @@
         <div class="bloco-3"> 12 </div>
     </main>
 
-    <h1 class="nome-da-propriedade">6- flex-flow (shorthand) - atalho para as propriedades flex-direction + flex-wrap</h1>
+    <button><a href="#Início" class="inicio">Início</a></button>
+    <hr>
+
+    <h1 class="nome-da-propriedade" id="flex-flow">6. flex-flow (SHORTHAND) - atalho para as propriedades flex-direction + flex-wrap</h1>
 
     <h2 class="valor-da-propriedade"> flex-flow: row nowrap</h2>
     <main class="container-flexflow-row-nowrap">
@@ -196,6 +264,119 @@
         <div class="bloco-3"> 12 </div>
     </main>
 
+    <button><a href="#Início" class="inicio">Início</a></button>
+    <hr>
+
+    <h1 class="nome-da-propriedade" id="align-content">7. align-content: para quando houver quebra de linha, ou seja, flex-wrap, e nós queremos alinhar os elementos no eixo perpendicular/secundário</h1>
+
+    <h2 class="valor-da-propriedade"> align-content: center</h2>
+    <main class="container-align-content-center">
+        <div class="bloco-1"> 1 </div>
+        <div class="bloco-2"> 2 </div>
+        <div class="bloco-3"> 3 </div>
+        <div class="bloco-1"> 4 </div>
+        <div class="bloco-2"> 5 </div>
+        <div class="bloco-3"> 6 </div>
+        <div class="bloco-1"> 7 </div>
+        <div class="bloco-2"> 8 </div>
+        <div class="bloco-3"> 9 </div>
+        <div class="bloco-1"> 10 </div>
+        <div class="bloco-2"> 11 </div>
+        <div class="bloco-3"> 12 </div>
+    </main>
+
+    <button><a href="#Início" class="inicio">Início</a></button>
+
+    <h2 class="valor-da-propriedade"> align-content: flex-start</h2>
+    <main class="container-align-content-flex-start">
+        <div class="bloco-1"> 1 </div>
+        <div class="bloco-2"> 2 </div>
+        <div class="bloco-3"> 3 </div>
+        <div class="bloco-1"> 4 </div>
+        <div class="bloco-2"> 5 </div>
+        <div class="bloco-3"> 6 </div>
+        <div class="bloco-1"> 7 </div>
+        <div class="bloco-2"> 8 </div>
+        <div class="bloco-3"> 9 </div>
+        <div class="bloco-1"> 10 </div>
+        <div class="bloco-2"> 11 </div>
+        <div class="bloco-3"> 12 </div>
+    </main>
+
+    <button><a href="#Início" class="inicio">Início</a></button>
+
+    <h2 class="valor-da-propriedade"> align-content: flex-end</h2>
+    <main class="container-align-content-flex-end">
+        <div class="bloco-1"> 1 </div>
+        <div class="bloco-2"> 2 </div>
+        <div class="bloco-3"> 3 </div>
+        <div class="bloco-1"> 4 </div>
+        <div class="bloco-2"> 5 </div>
+        <div class="bloco-3"> 6 </div>
+        <div class="bloco-1"> 7 </div>
+        <div class="bloco-2"> 8 </div>
+        <div class="bloco-3"> 9 </div>
+        <div class="bloco-1"> 10 </div>
+        <div class="bloco-2"> 11 </div>
+        <div class="bloco-3"> 12 </div>
+    </main>
+
+    <button><a href="#Início" class="inicio">Início</a></button>
+
+    <h2 class="valor-da-propriedade"> align-content: space-between</h2>
+    <main class="container-align-content-space-between">
+        <div class="bloco-1"> 1 </div>
+        <div class="bloco-2"> 2 </div>
+        <div class="bloco-3"> 3 </div>
+        <div class="bloco-1"> 4 </div>
+        <div class="bloco-2"> 5 </div>
+        <div class="bloco-3"> 6 </div>
+        <div class="bloco-1"> 7 </div>
+        <div class="bloco-2"> 8 </div>
+        <div class="bloco-3"> 9 </div>
+        <div class="bloco-1"> 10 </div>
+        <div class="bloco-2"> 11 </div>
+        <div class="bloco-3"> 12 </div>
+    </main>
+
+    <button><a href="#Início" class="inicio">Início</a></button>
+
+    <h2 class="valor-da-propriedade"> align-content: space-around</h2>
+    <main class="container-align-content-space-around">
+        <div class="bloco-1"> 1 </div>
+        <div class="bloco-2"> 2 </div>
+        <div class="bloco-3"> 3 </div>
+        <div class="bloco-1"> 4 </div>
+        <div class="bloco-2"> 5 </div>
+        <div class="bloco-3"> 6 </div>
+        <div class="bloco-1"> 7 </div>
+        <div class="bloco-2"> 8 </div>
+        <div class="bloco-3"> 9 </div>
+        <div class="bloco-1"> 10 </div>
+        <div class="bloco-2"> 11 </div>
+        <div class="bloco-3"> 12 </div>
+    </main>
+
+    <button><a href="#Início" class="inicio">Início</a></button>
+
+    <h2 class="valor-da-propriedade"> align-content: space-evenly</h2>
+    <main class="container-align-content-space-evenly">
+        <div class="bloco-1"> 1 </div>
+        <div class="bloco-2"> 2 </div>
+        <div class="bloco-3"> 3 </div>
+        <div class="bloco-1"> 4 </div>
+        <div class="bloco-2"> 5 </div>
+        <div class="bloco-3"> 6 </div>
+        <div class="bloco-1"> 7 </div>
+        <div class="bloco-2"> 8 </div>
+        <div class="bloco-3"> 9 </div>
+        <div class="bloco-1"> 10 </div>
+        <div class="bloco-2"> 11 </div>
+        <div class="bloco-3"> 12 </div>
+    </main>
+
+    <button><a href="#Início" class="inicio">Início</a></button>
+ 
 </body>
 
 </html>
